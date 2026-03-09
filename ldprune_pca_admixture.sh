@@ -1,4 +1,6 @@
 #!/bin/bash
+mkdir ldprune
+cd ldprune
 VCFFILE=../all_microtus_final.vcf.gz
 TEMPID=mc_maf
 FINALID=microtus_autosome_ldprune
